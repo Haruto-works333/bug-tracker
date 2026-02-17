@@ -1,7 +1,7 @@
 # Bug Tracker
 
 A full-stack bug tracking application built with React, Node.js, Express, and PostgreSQL.
-For Portfolio Sample Program.
+
 ## Tech Stack
 
 - **Frontend:** React, TypeScript
