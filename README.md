@@ -38,36 +38,36 @@ For Portfolio Sample Program.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bug-tracker.git
+git clone https://github.com/Haruto-works333/bug-tracker.git
 cd bug-tracker
 ```
 
-1. Setup the backend
+2. Setup the backend
 
 ```bash
 cd server
 npm install
 ```
 
-1. Create a `.env` file in the server directory
+3. Create a `.env` file in the server directory
 
 ```env
 DATABASE_URL="postgresql://postgres:YOUR_PASSWORD@localhost:5432/bug_tracker"
 ```
 
-1. Run database migration
+4. Run database migration
 
 ```bash
 npx prisma migrate dev
 ```
 
-1. Start the backend server
+5. Start the backend server
 
 ```bash
 npx ts-node src/index.ts
 ```
 
-1. Setup the frontend
+6. Setup the frontend
 
 ```bash
 cd ../client
@@ -75,7 +75,7 @@ npm install
 npm start
 ```
 
-1. Open <http://localhost:3000> in your browser
+7. Open <http://localhost:3000> in your browser
 
 ## Screenshot
 
